@@ -1,0 +1,42 @@
+.main-content__button-group {
+  display: flex;
+  .main-content__button-group_color_activ {
+    cursor: pointer;
+    width: 128px;
+    height: 52px;
+    margin-right: 10px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    background: #ff685b;
+    border: 2px solid #ff685b;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+    &:hover {
+      color: #ff685b;
+      background: #ffffff;
+    }
+  }
+
+  .main-content__button-group_color_disabled {
+    cursor: pointer;
+    width: 155px;
+    height: 52px;
+    margin-right: 10px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 14px;
+    color: #ff685b;
+    background: #ffffff;
+    border: 2px solid #ff685b;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+    &:hover {
+      color: #ffffff;
+      background: #ff685b;
+    }
+  }
+}

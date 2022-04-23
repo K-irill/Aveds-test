@@ -1,0 +1,38 @@
+.concats-page__main {
+  display: flex;
+  justify-content: center;
+
+  .concats-page__main-information {
+    width: 1045px;
+    height: 280px;
+    margin-top: 80px;
+
+    h1 {
+      margin: 0;
+      margin-top: 105px;
+      font-weight: 700;
+      font-size: 58px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .concats-page__main {
+    display: flex;
+    justify-content: center;
+
+    .concats-page__main-information {
+      text-align: center;
+      width: 1045px;
+      height: 280px;
+      margin: 0;
+
+      h1 {
+        margin: 0;
+        margin-top: 105px;
+        font-weight: 700;
+        font-size: 40px;
+      }
+    }
+  }
+}
